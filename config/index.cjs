@@ -23,17 +23,17 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'opS3550FBlrCdZOznBQ95ssutOjs',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'lG3tdKguqh06UMC_mMjYJOtmsVaQnEDXz30zMFUw5vc',
+      useTemplateId: 'Yo-hqO6Js5V9mwjDTdynvSFMdxvniBM0ZsQLY9q8AD8',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-18',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '2000', date: '12-18',
+          type: '生日', name: '晶晶老公', year: '2000', date: '12-28',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '何明姣', year: '2000', date: '12-18',
+          type: '生日', name: '姣姣老婆', year: '2000', date: '12-18',
         },
         {
           type: '节日', name: '相识纪念日', year: '2021', date: '09-22',
@@ -44,14 +44,14 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2021-09-22' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-22' },
+        { keyword: 'marry_day', date: '2021-09-22' },
       ],
     },
   ],
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'lG3tdKguqh06UMC_mMjYJOtmsVaQnEDXz30zMFUw5vc',
+  CALLBACK_TEMPLATE_ID: 'Yo-hqO6Js5V9mwjDTdynvSFMdxvniBM0ZsQLY9q8AD8',
 
   CALLBACK_USERS: [
     {
